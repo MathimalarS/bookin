@@ -97,7 +97,8 @@ html, body {
 }
 
 .small-banner .left-section span {
-    margin-left: 10px;
+    right: 20%;
+    margin-left: 20px;
 }
 
 .sign-in-btn {

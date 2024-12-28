@@ -5,6 +5,8 @@ import { FaTag } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import DiscoverStayPage from "../Discoverstay/Discoverstay";
 import TrendingDestinations from "../Trendingplaces/Trending";
+import { Footer } from "../Footer/Footer";
+import Carousel from "../Homehotel/Homehotel";
 
 const HomeBanner = () => {
   return (
@@ -30,6 +32,8 @@ const HomeBanner = () => {
       </div>
       <DiscoverStayPage /> 
       <TrendingDestinations/>
+      <Carousel/>
+      <Footer/>
     </div>
   );
 };

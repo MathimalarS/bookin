@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@react-google-maps/api": "^2.20.5",
     "bookinn": "file:",
     "cra-template": "1.2.0",
@@ -14,7 +15,9 @@
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
-    "react-transition-group": "^4.4.5"
+    "react-slick": "^0.30.3",
+    "react-transition-group": "^4.4.5",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",

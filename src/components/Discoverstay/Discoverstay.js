@@ -9,7 +9,7 @@ import houseboat from '../Discoverstay/boathouse.avif';
 const DiscoverStayPage = () => {
   return (
     <div className="discover-stay-section">
-      <h2>Discover our new favourite stay</h2>
+      <h2>Discover your new favourite stay</h2>
       <div className="cards-container">
         <div className="stay-card">
           <img src={resort}loading="lazy" alt="Resort" />
