@@ -14,8 +14,9 @@
   }
   
   .footer-section {
+    margin-right: 30px;
     flex: 1 1 200px;
-    margin: 10px;
+    /* margin: 10px; */
   }
   
   .footer-section h3 {
