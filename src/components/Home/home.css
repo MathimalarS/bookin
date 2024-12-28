@@ -1,0 +1,115 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.home-banner {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url('../Home/banner.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.banner-content {
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 50px;
+    max-width: 450px;
+}
+
+.small-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1847;
+    padding: 10px 20px;
+    position: sticky;
+    margin-bottom: -450px;
+    margin-left: 200px;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 120%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #2d3e96;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.banner-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    max-width: 400px;
+    word-wrap: break-word;
+    color: white;
+}
+
+.banner-content p {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    color: white;
+}
+
+.explore-btn {
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: #005f9e;
+}
+
+.small-banner .left-section {
+    display: flex;
+    align-items: center;
+}
+
+.small-banner .left-section span {
+    margin-left: 10px;
+}
+
+.sign-in-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.discover-stay-section {
+    padding: 50px 20px;
+    text-align: center;
+}

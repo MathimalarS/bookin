@@ -1,0 +1,138 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  position: absolute;
+  bottom: 30px;
+  left: 45%;
+  transform: translateX(-50%);
+  max-width: 900px;
+  width: 60%;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.search-item .icon {
+  margin-right: 8px;
+  font-size: 1.5rem;
+  color: #0071c2;
+}
+
+.search-item input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.search-button {
+  background-color: #0071c2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #005f9e;
+}
+
+.suggestions-list {
+  padding: 0%;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  right: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: white;
+  max-height: 200px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-list li {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.list-icon {
+  margin-right: 10px;
+  color: #0071c2;
+}
+
+.popular-destinations {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  width: 250px; 
+}
+
+.popular-destinations h2 {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.popular-destinations ul {
+  color: #333;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popular-destinations li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.popular-destinations li:hover {
+  background-color: #f0f0f0; /* Light gray hover */
+}
+
+.popular-destinations li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1); 
+}
+.stay-icon {
+  width: 30px; 
+  height: 30px;
+  margin-right: 8px;
+}
