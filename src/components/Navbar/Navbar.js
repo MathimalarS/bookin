@@ -18,9 +18,9 @@ const Navbar = () => {
         <SearchBar />
       </div>
       <div className="navbar-right">
-        <button className="stays-btn">
+      <Link to="/hotelbooking"><button className="stays-btn">
           <img src={stay} alt="Stays Icon" className="stays-icon" /> Stays
-        </button>
+        </button></Link>
         <Link to="/login" className="auth-link">Login</Link>
         <Link to="/signup" className="auth-link">Signup</Link>
       </div>

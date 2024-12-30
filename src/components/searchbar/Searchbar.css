@@ -136,3 +136,25 @@
   height: 30px;
   margin-right: 8px;
 }
+.range-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.range-box button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.range-box button:hover {
+  background-color: #e0e0e0;
+}
+
+.range-box span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
