@@ -50,6 +50,7 @@
 
 .stays-btn:hover {
   background-color: #5a54d6;
+  outline: none;
 }
 
 .auth-link {
